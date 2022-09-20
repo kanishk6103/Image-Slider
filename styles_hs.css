@@ -1,0 +1,115 @@
+body{
+  background: black;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1{
+  margin: 50px auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+
+ .container-fluid{
+   margin-top: 100px;
+  position: relative;
+  width: 900px;
+  height: 600px;
+  padding: 0;
+}
+
+
+  /* @mixin center(){
+    display: flex;
+    justify-content:center;
+    align-items:center;
+  } */
+
+.slider-container{
+    height:inherit;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.slider{
+  -webkit-appearance:none;
+  appearance:none;
+  width: 100%;
+  height: inherit;
+  outline: none;
+  background: rgba(0, 0, 0, 0.1);
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  margin: 0;
+  padding: 0;
+}
+
+.slider::-webkit-slider-runnable-track{
+  /* background: rgba(169, 169, 169, 0.3); */
+}
+
+.slider:hover{
+  background: rgba(169, 169, 169, 0.005);;
+}
+
+.slider::-webkit-slider-thumb{
+  -webkit-appearance:none;
+  appearance:none;
+  opacity: 100%;
+  width: 15px;
+  height: 600px;
+  background: #1DB954;
+  cursor:pointer;
+  margin: 0;
+  padding: 0;
+}
+
+.image{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: 600px 100%;
+  z-index: -1;
+}
+
+.background-image{
+  background-image: url(images/Stack-after.jpg);
+}
+.foreground-image{
+  background-image: url(images/Stack-before.png);
+  width: 50%;
+}
+
+
+/* .ba_slider{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(#f2f2f2, .3);
+  outline: none;
+  margin: 0;
+  transition: all .2s;
+}
+.ba_slider:-webkit-slider-thumb{
+display: flex;
+justify-content:center;
+align-items:center;
+}
+
+.ba_slider:hover{
+  background:rgba(#f2f2f2, 0.1);
+}
+
+.ba_slider::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  appearance: none;
+  width: 5px;
+  height: 800px;
+  background: white;
+  cursor:pointer;
+} */
