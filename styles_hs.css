@@ -78,10 +78,10 @@ h1{
 }
 
 .background-image{
-  background-image: url(https://ibb.co/mBJGghD);
+ background-image: url(./images/Stack-after.jpg);
 }
 .foreground-image{
-  background-image: url(https://ibb.co/Km4s4Lt);
+  background-image: url(./images/Stack-before.png);
   width: 50%;
 }
 
