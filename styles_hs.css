@@ -78,10 +78,10 @@ h1{
 }
 
 .background-image{
-  background-image: url(./images/Stack-after.jpg);
+  background-image: url(../images/Stack-after.jpg);
 }
 .foreground-image{
-  background-image: url(./images/Stack-before.png);
+  background-image: url(../images/Stack-before.png);
   width: 50%;
 }
 
